@@ -1,5 +1,5 @@
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6957,6 +6957,8 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-.title,
-.subtitle {
-  font-family: "Abril Fatface", cursive; }
+body {
+  font-family: 'Roboto', sans-serif; }
+
+div.card.tile.is-child {
+  flex-grow: 0; }

@@ -1,7 +1,15 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-.title, .subtitle {
-  font-family: "Abril Fatface", cursive;
+// .title, .subtitle {
+//   font-family: "Abril Fatface", cursive;
+// }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div.card.tile.is-child{
+  flex-grow:0;
 }
